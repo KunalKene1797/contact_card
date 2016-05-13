@@ -3160,7 +3160,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: rgba(149,34,44, 0.5);
+		background: rgba(46,56,66, 0.8);
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
