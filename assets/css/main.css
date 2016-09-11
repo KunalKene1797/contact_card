@@ -3301,14 +3301,6 @@ img {
 		-ms-filter: blur(0.5em);
 		filter: blur(0.5em);
 	}
-	@media screen and (max-width: 736px) {
-
-		body.is-menu-visible #page-wrapper {
-					transition: 0s filter linear;
-		-webkit-transition: 0s -webkit-filter linear;
-		-moz-transition: 0s -moz-filter linear;
-		-ms-transition: 0s -ms-filter linear;
-		}
 
 		body.is-menu-visible #page-wrapper:before {
 			display: block;
