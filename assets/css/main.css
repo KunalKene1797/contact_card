@@ -3292,10 +3292,6 @@ img {
 
 	body.is-menu-visible #page-wrapper {
 		opacity: 0.90;
-		transition: 1s filter linear;
-		-webkit-transition: 1s -webkit-filter linear;
-		-moz-transition: 1s -moz-filter linear;
-		-ms-transition: 1s -ms-filter linear;
 		-moz-filter: blur(0.5em);
 		-webkit-filter: blur(0.5em);
 		-ms-filter: blur(0.5em);
