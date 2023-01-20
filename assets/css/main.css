@@ -65,16 +65,7 @@ body{
   background-color: rgb(25,25,25);
 }
 .line-1{
-    position: relative;
-    top: 50%;
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 100%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);
+   margin: auto;
 }
 
 /* Animation */
