@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.4758f93d.css",
-    "main.js": "/static/js/main.a1847193.js",
+    "main.js": "/static/js/main.c365253a.js",
     "static/media/kk_wh_skl.png": "/static/media/kk_wh_skl.204b1082a60685a62f01.png",
     "index.html": "/index.html",
     "main.4758f93d.css.map": "/static/css/main.4758f93d.css.map",
-    "main.a1847193.js.map": "/static/js/main.a1847193.js.map"
+    "main.c365253a.js.map": "/static/js/main.c365253a.js.map"
   },
   "entrypoints": [
     "static/css/main.4758f93d.css",
-    "static/js/main.a1847193.js"
+    "static/js/main.c365253a.js"
   ]
 }
