@@ -36,7 +36,7 @@ export default function Home() {
         </div>
 
         <div className="header-images">
-          <p className="skills-text">C# ASP.NET</p>
+          {/* <p className="skills-text">C# ASP.NET</p> */}
         </div>
       </div>
 
