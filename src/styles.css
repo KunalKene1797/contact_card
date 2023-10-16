@@ -3,6 +3,13 @@
 * {
   box-sizing: border-box;
   font-family: "Syne", sans-serif;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
 }
 
 body {
@@ -32,6 +39,7 @@ body {
 /* Navigation Bar */
 
 .nav {
+  z-index: 10;
   background: linear-gradient(#111, #111, #11111500);
   color: white;
   display: flex;
@@ -195,6 +203,7 @@ body {
   height: 4rem;
   align-items: center;
   position: relative;
+  z-index: 10;
 }
 
 .footer-text{
@@ -208,6 +217,73 @@ body {
     background: -webkit-linear-gradient(left, #00467f, #a5cc82);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+
+/* Reactive */
+
+@media (max-width: 800px) {
+
+  .nav {
+    height: 6rem;
+    padding: 0 3rem;
+  }
+
+  .page-links{
+    display: none;
+  }
+
+  .site-logo {
+    max-height: 50%;
+  }
+
+  .header-images {
+    display: none;
+  }
+  .header-description {
+    width: 100%;
+  }
+  .header-prefix {
+    font-size: 1.5rem;
+  }
+  
+  .header-name {
+    font-size: 3rem;
+  }
+  
+  .header-title {
+    font-size: 1.5em;
+  }
+
+  .header-bio {
+    font-size: 1rem;
+  }
+
+  .header-button {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    gap: 0.4rem;
+    height: fit-content;
+  }
+
+  .container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 6rem;
+  }
+
+  .footer-section{
+    justify-content: center;
+    padding-top: 5rem;
+  }
+
+  .footer-text{
+    font-size: 0.8rem;
+  }
+
+  .nav-icons {
+    height: 1rem;
+  }
 }
 
 /* Animations */
