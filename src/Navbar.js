@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <div className="page-links">
-        <Link className="nav-link" to="/work">
+        {/* <Link className="nav-link" to="/work">
           DEVELOPER
         </Link>
         <Link className="nav-link" to="/lens">
@@ -22,7 +22,7 @@ export default function Navbar() {
         </Link>
         <Link className="nav-link" to="/contact">
           CONTACT
-        </Link>
+        </Link> */}
       </div>
 
       <Link to="/" className="site-title">
